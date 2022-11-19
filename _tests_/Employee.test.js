@@ -1,8 +1,8 @@
-const Employee = require('./lib/Employee.js');
+const Employee = require('../lib/Employee');
 
 describe("Employee", () => {
     it("should create an object with the employee name, id, and email", () => {
-        const newEmployee = new Employee('person', '1', 'person@gmail.com');
+        const newEmployee = new Employee('person', 1, 'person@gmail.com');
 
         expect(newEmployee.name).toEqual(expect.any(String));
         expect(newEmployee.id).toEqual(expect.any(Number));
@@ -12,7 +12,7 @@ describe("Employee", () => {
 
 describe("getName", () => {
     it("should get employee name from user input and return it as a string", () => {
-        const newEmployee = new Employee('person', '1', 'person@gmail.com');
+        const newEmployee = new Employee('person', 1, 'person@gmail.com');
 
         expect(newEmployee.getName()).toEqual(expect.any(String));
     });
@@ -20,7 +20,7 @@ describe("getName", () => {
 
 describe("getId", () => {
     it("should get employee id from user input and return it as a number", () => {
-        const newEmployee = new Employee('person', '1', 'person@gmail.com');
+        const newEmployee = new Employee('person', 1, 'person@gmail.com');
 
         expect(newEmployee.getId()).toEqual(expect.any(Number));
     });
@@ -28,7 +28,7 @@ describe("getId", () => {
 
 describe("getEmail", () => {
     it("should get employee email from user input and return it as a string", () => {
-        const newEmployee = new Employee('person', '1', 'person@gmail.com');
+        const newEmployee = new Employee('person', 1, 'person@gmail.com');
 
         expect(newEmployee.getEmail()).toEqual(expect.stringContaining('@'));
     });
@@ -36,7 +36,7 @@ describe("getEmail", () => {
 
 describe("getRole", () => {
     it("should give us 'Employee' as a string", () => {
-        const newEmployee = new Employee('person', '1', 'person@gmail.com');
+        const newEmployee = new Employee('person', 1, 'person@gmail.com');
 
         expect(newEmployee.getRole()).toEqual("Employee");
     });
