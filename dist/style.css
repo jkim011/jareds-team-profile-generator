@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+/* Header */
+#title {
+    text-align: center;
+    font-size: 300%;
+    padding: 30px;
+    background-color: indigo;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* Card section */
+.card-container {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cards {
+    margin: 10px;
+    box-shadow: 4px 4px 3px grey;
+    width: 22rem;
+    background-color: lavender;
+}
+
+/* Inside the cards */
+.card-body {
+    padding: 0;
+}
+
+.profile-header {
+    background-color: mediumslateblue;
+}
+
+.profile-header-text {
+    margin-left: 8px;
+    padding: 8px;
+    color: white;
+}
+
+.profile-body {
+    margin: 8px;
+}
+
+.profile-body-text {
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
