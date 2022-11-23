@@ -22,8 +22,8 @@
   **Click below for demonstration video:** <br>
   [readme-generator-video.webm]() <br>
   
-  **Image of newly generated README:** <br>
-  ![]() <br>
+  **Image of newly generated index.html with Team Profile:** <br>
+  ![]() <br> 
   
   In the VS code command line in the index.js file, run the following: <br>
       node index.js 

@@ -8,7 +8,6 @@ describe("Intern", () => {
         expect(newIntern.id).toEqual(expect.any(Number));
         expect(newIntern.email).toEqual(expect.stringContaining("@"));
         expect(newIntern.school).toEqual(expect.any(String));
-        // expect(newIntern.getRole()).toEqual("Intern");
     });
 });
 

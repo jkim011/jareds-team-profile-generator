@@ -5,14 +5,17 @@ const generateManager = function (manager) {
             <div class="profile-header">
                 <div class="profile-header-text">
                     <h4 class="card-title">${manager.name}</h4>
-                    <h5>Manager</h5>
+                    <h5>
+                        <i class="fas fa-mug-hot mr-1"></i>
+                        Manager
+                    </h5>
                 </div>
             </div>
             <div class="profile-body">
                 <div class="profile-body-text">
                     <ul class="list-group">
                         <li class="list-group-item id">ID: ${manager.id}</li>
-                        <li class="list-group-item email">Email: <a href="malito: ${manager.email}">${manager.email}</a></li>
+                        <li class="list-group-item email">Email: <a href="mailto: ${manager.email}">${manager.email}</a></li>
                         <li class="list-group-item officeNumber">Office number: ${manager.officeNumber}</li>
                     </ul>
                 </div>                     
@@ -29,14 +32,17 @@ const generateEngineer = function (engineer) {
             <div class="profile-header">
                 <div class="profile-header-text">
                     <h4 class="card-title">${engineer.name}</h4>
-                    <h5>Engineer</h5>
+                    <h5>
+                        <i class="fas fa-glasses mr-1"></i>
+                        Engineer
+                    </h5>
                 </div>
             </div>
             <div class="profile-body">
                 <div class="profile-body-text">
                     <ul class="list-group">
                         <li class="list-group-item id">ID: ${engineer.id}</li>
-                        <li class="list-group-item email">Email: <a href="malito:${engineer.email}">${engineer.email}</a></li>
+                        <li class="list-group-item email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
                         <li class="list-group-item github">GitHub: <a href="https://github.com/${engineer.github}">${engineer.github}</a></li>
                     </ul>
                 </div>                     
@@ -53,14 +59,17 @@ const generateIntern = function (intern) {
             <div class="profile-header">
                 <div class="profile-header-text">
                     <h4 class="card-title">${intern.name}</h4>
-                    <h5>Intern</h5>
+                    <h5>
+                        <i class="fas fa-user-graduate mr-1"></i>
+                        Intern
+                    </h5>
                 </div>
             </div>
             <div class="profile-body">
                 <div class="profile-body-text">
                     <ul class="list-group">
                         <li class="list-group-item id">ID: ${intern.id}</li>
-                        <li class="list-group-item email">Email: <a href="malito:${intern.email}">${intern.email}</a></li>
+                        <li class="list-group-item email">Email: <a href="mailto:${intern.email}">${intern.email}</a></li>
                         <li class="list-group-item school">School: ${intern.school}</li>
                     </ul> 
                 </div>                     
@@ -114,6 +123,7 @@ const generateTeamPage = function (employeeCards) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Team Profile</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
         <link rel="stylesheet" href="style.css">
     </head>
 

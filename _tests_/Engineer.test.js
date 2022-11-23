@@ -8,7 +8,6 @@ describe("Engineer", () => {
         expect(newEngineer.id).toEqual(expect.any(Number))
         expect(newEngineer.email).toEqual(expect.stringContaining("@"))
         expect(newEngineer.github).toEqual(expect.any(String))
-        // expect(newEngineer.getRole).toEqual("Engineer");
     });
 });
 

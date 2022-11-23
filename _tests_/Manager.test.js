@@ -8,7 +8,6 @@ describe("Manager", () => {
         expect(newManager.id).toEqual(expect.any(Number));
         expect(newManager.email).toEqual(expect.stringContaining("@"));
         expect(newManager.officeNumber).toEqual(expect.any(Number));
-        // expect(newManager.getRole()).toEqual("Manager");
     });   
 });
 
