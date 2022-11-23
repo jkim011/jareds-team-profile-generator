@@ -20,10 +20,10 @@
 
   ## Usage
   **Click below for demonstration video:** <br>
-  [team-profile-generator.webm](https://user-images.githubusercontent.com/112585959/203466194-553248c9-361b-4ac1-b10c-3f78a8a20be5.webm)
+  [team-profile-generator.webm](https://user-images.githubusercontent.com/112585959/203466194-553248c9-361b-4ac1-b10c-3f78a8a20be5.webm) <br>
   
   **Image of newly generated index.html with Team Profile:** <br>
-  ![]() <br> 
+  ![](./src/team-profile-generatorPIC.PNG) <br> 
   
   In the VS code command line in the index.js file, run the following: <br>
       node index.js 
