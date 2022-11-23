@@ -20,7 +20,7 @@
 
   ## Usage
   **Click below for demonstration video:** <br>
-  [readme-generator-video.webm]() <br>
+  [team-profile-generator.webm](https://user-images.githubusercontent.com/112585959/203466194-553248c9-361b-4ac1-b10c-3f78a8a20be5.webm)
   
   **Image of newly generated index.html with Team Profile:** <br>
   ![]() <br> 
